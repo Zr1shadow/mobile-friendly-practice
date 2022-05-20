@@ -41,3 +41,24 @@ footer{
     position: absolute;
     bottom: 0;
 }
+
+@media screen and (min-width: 480px) {
+    header {
+      background-color: red;
+      background-image: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    header {
+      background-color: lightblue;
+      background-image: none;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    header {
+      background-color: brown;
+      background-image: none;
+    }
+  }
